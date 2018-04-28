@@ -105,4 +105,28 @@ public class PlayerMove : MonoBehaviour
         this.CalculateHeight();
         this.CheckIfFinishedMovement();
     }
+
+    public bool FinishedMovement
+    {
+        get
+        {
+            return finished_Movement;
+        }
+        set
+        {
+            finished_Movement = value;
+        }
+    }
+
+    public Vector3 TargetPosition
+    {
+        get
+        {
+            return target_Pos;
+        }
+        set
+        {
+            target_Pos = value;
+        }
+    }
 }//Class

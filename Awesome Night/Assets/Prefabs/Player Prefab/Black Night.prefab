@@ -181,6 +181,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1312462951105516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4399368384844232}
+  m_Layer: 0
+  m_Name: KickSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: -3701561207968579530, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1327658458458172
 GameObject:
   m_ObjectHideFlags: 1
@@ -232,6 +247,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1450266978149926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4383712429554262}
+  m_Layer: 0
+  m_Name: FireShieldSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1456524807383124
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +275,21 @@ GameObject:
   m_Name: BlackKnight_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1464665584514662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4239174277667380}
+  m_Layer: 0
+  m_Name: GroundImpact
+  m_TagString: Untagged
+  m_Icon: {fileID: 4660412927644837186, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -367,6 +412,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1696390721093084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4479143709688916}
+  m_Layer: 0
+  m_Name: FireTornadoSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 8220585740371884164, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1750937426374094
 GameObject:
   m_ObjectHideFlags: 1
@@ -412,6 +472,8 @@ GameObject:
   - component: {fileID: 95701863081127896}
   - component: {fileID: 143949623331335224}
   - component: {fileID: 114966900437233696}
+  - component: {fileID: 114603025013721968}
+  - component: {fileID: 114779376999260742}
   m_Layer: 0
   m_Name: Black Night
   m_TagString: Player
@@ -704,6 +766,19 @@ Transform:
   m_Father: {fileID: 4128572985966460}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4239174277667380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1464665584514662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0.97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270395576164780}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4250797750241876
 Transform:
   m_ObjectHideFlags: 1
@@ -730,6 +805,10 @@ Transform:
   - {fileID: 4158325715410510}
   - {fileID: 4624169552517882}
   - {fileID: 4121044688373272}
+  - {fileID: 4239174277667380}
+  - {fileID: 4399368384844232}
+  - {fileID: 4479143709688916}
+  - {fileID: 4383712429554262}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -748,6 +827,19 @@ Transform:
   m_Father: {fileID: 4608219005289498}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4383712429554262
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450266978149926}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270395576164780}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4383995648315492
 Transform:
   m_ObjectHideFlags: 1
@@ -762,6 +854,19 @@ Transform:
   m_Father: {fileID: 4349831551887136}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4399368384844232
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312462951105516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.85, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270395576164780}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4412650841185126
 Transform:
   m_ObjectHideFlags: 1
@@ -775,6 +880,19 @@ Transform:
   - {fileID: 4846564047567594}
   m_Father: {fileID: 4898047513582310}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4479143709688916
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1696390721093084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4270395576164780}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4486573680024276
 Transform:
@@ -2065,6 +2183,57 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114603025013721968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797176596167578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7e91c8da7155b40943237b53305c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theFillImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fadeTimes:
+  - 1
+  - 0.7
+  - 0.3
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.08
+--- !u!114 &114779376999260742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797176596167578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d494a60175af24abb97d0a377950df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundImpact_Spawn: {fileID: 1464665584514662}
+  kickFX_Spawn: {fileID: 1312462951105516}
+  fireTornado_Spawn: {fileID: 1696390721093084}
+  fireShield_Spawn: {fileID: 1450266978149926}
+  groundImpact_Prefab: {fileID: 100014, guid: 2f8ef9eb56c6f1d46a58225698863a6f, type: 2}
+  kickFX_Prefab: {fileID: 136674, guid: 8d3a7fbc62f810c43b8c42fdb2978ef4, type: 2}
+  fireTornado_Prefab: {fileID: 1498625563617044, guid: 9ad77a006e79044fe86df522ebede5e4,
+    type: 2}
+  fireShield_Prefab: {fileID: 1351438999312512, guid: b1ce49cd6652b40fdb4c9bc83ada15fc,
+    type: 2}
+  healFX_Prefab: {fileID: 1820702659360474, guid: d3009f51c71e64cceb20222e458aab0f,
+    type: 2}
+  thunderFX_Prefab: {fileID: 1164094381172014, guid: d52235af7d56d4f148d6e52c8bc2c348,
+    type: 2}
 --- !u!114 &114966900437233696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2225,7 +2394,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1296047378
+  randomSeed: -121073568
   InitialModule:
     serializedVersion: 3
     enabled: 1
